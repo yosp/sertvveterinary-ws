@@ -1,0 +1,30 @@
+{
+  "name": "sertvveterinary-ws",
+  "version": "1.0.0",
+  "description": "sertvveterinary Realtime Server",
+  "scripts": {
+    "lint": "standard",
+    "start": "node server.js"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosp/sertvveterinary-ws.git"
+  },
+  "author": "Yeison Segura <yeisp1011@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosp/sertvveterinary-ws/issues"
+  },
+  "homepage": "https://github.com/yosp/sertvveterinary-ws#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.3.2",
+    "socket.io": "^1.4.8"
+  }
+}
